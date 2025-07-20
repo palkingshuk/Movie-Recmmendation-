@@ -1,0 +1,23 @@
+# Ignore everything by default
+*
+
+# But do not ignore .gitignore itself
+!.gitignore
+
+# Allow Jupyter notebooks
+!*.ipynb
+
+#Allow md files
+!*.md
+
+# Ignore all CSV files everywhere
+*.csv
+
+# Ignore all ZIP files everywhere
+*.zip
+
+# Ignore all directories (folders)
+*/
+
+# If you want to allow .ipynb files in subfolders too, add:
+!**/*.ipynb
